@@ -16,3 +16,30 @@ vue-chart-admin 是一款大屏前端项目解决方案，它基于了 [vue3](ht
 - [图表的数据响应逻辑究竟该怎么写，才是最优的]()
 
 - [小彩蛋，v-modal-hook]()
+
+## 开发
+
+```bash
+# 克隆项目
+git clone https://github.com/HuziG/vue-chart-admin
+
+# 进入项目目录
+cd vue-chart-admin
+
+# 安装依赖
+pnpm install
+
+## 发布
+
+```bash
+# 构建测试环境
+npm run build:stage
+
+# 构建生产环境
+npm run build:prod
+```
+
+# 启动服务
+pnpm run dev
+```
+
