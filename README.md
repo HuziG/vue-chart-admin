@@ -28,18 +28,21 @@ cd vue-chart-admin
 
 # 安装依赖
 pnpm install
+```
 
 ## 发布
 
 ```bash
 # 构建测试环境
-npm run build:stage
+pnpm run build:stage
 
 # 构建生产环境
-npm run build:prod
+pnpm run build:prod
 ```
 
 # 启动服务
+
+```bash
 pnpm run dev
 ```
 
